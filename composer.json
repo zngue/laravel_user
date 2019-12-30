@@ -12,7 +12,8 @@
     "require": {
         "tymon/jwt-auth": "1.0.0-rc.5",
         "laravel/framework": "^6.2",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "zngue/laravel_helper": "dev-master"
     },
     "autoload": {
         "psr-4": {
