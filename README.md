@@ -6,7 +6,7 @@ composer require zngue/laravel_user
 ```
 php artisan vendor:publish --provider="Zngue\User\ZngUserServiceProvider"
 ```
-##创建数据库
+## 创建数据库
 ```
 CREATE TABLE `zng_users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
