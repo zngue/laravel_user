@@ -10,10 +10,10 @@
         }
     ],
     "require": {
-        "tymon/jwt-auth": "1.0.0-rc.5",
+        "tymon/jwt-auth": "1.*@rc",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^2.0",
-        "zngue/laravel_helper": "dev-master"
+        "zngue/laravel_helper": "*"
     },
     "autoload": {
         "psr-4": {
