@@ -28,5 +28,26 @@ CREATE TABLE `zng_users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='用户表';
 
 ```
-### laravel_jwt 安装
-安装连接https://learnku.com/articles/10885/full-use-of-jwt
+## laravel_jwt 快速 配置文件发布 如下
+```
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+## jwt生成秘钥
+```
+php artisan jwt:secret
+``` 
+## jwt 注册门面
+```
+'aliases' => [
+        ...
+        // 添加以下两行
+        'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
+        'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory',
+],
+```
+## jwt 详情安装
+安装详细教程 https://learnku.com/articles/10885/full-use-of-jwt
+
+
+
+
