@@ -37,6 +37,7 @@ php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServicePro
 php artisan jwt:secret
 ``` 
 ## jwt 注册门面
+config/app.php 添加代码
 ```
 'aliases' => [
         ...
