@@ -1,6 +1,8 @@
 {
     "name": "zngue/laravel_user",
     "description": "zngue permission library 用户管理",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "zngue",
