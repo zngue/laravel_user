@@ -1,15 +1,21 @@
 <?php
 namespace Zngue\User\Controller;
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Zngue\Helper\BaseController;
 use Zngue\Helper\Common;
 use Zngue\User\Models\User as UserModel;
 use Zngue\User\Request\AddUserRequest;
 use Zngue\User\Request\EditUserRequest;
 
-class User extends Controller
+class User extends BaseController
 {
+    public function index(){
+        $name = 'zhangsan';
+       // echo $name;die;
+
+        return view('a.list',compact('name'));
+    }
     /**
      * @param AddUserRequest $request
      * @return \Illuminate\Http\JsonResponse
